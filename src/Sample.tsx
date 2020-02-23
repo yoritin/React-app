@@ -1,8 +1,12 @@
 import React from "react";
 
-class Sample extends React.Component {
+interface Props {
+  num: string;
+}
+
+class Sample extends React.Component<Props> {
   render() {
-    return <p>2つ目のコンポーネント</p>
+    return <p>{this.props.num}つ目のコンポーネント</p>
   }
 }
 

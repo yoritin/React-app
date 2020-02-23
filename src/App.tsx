@@ -6,7 +6,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <p>Hello world</p>
-        <Sample/>
+        <Sample num={"5"} />
       </React.Fragment>
     );
   }
