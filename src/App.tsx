@@ -1,8 +1,14 @@
 import React from "react";
+import Sample from './Sample'
 
 class App extends React.Component {
   render() {
-    return <p>Hello world</p>;
+    return (
+      <React.Fragment>
+        <p>Hello world</p>
+        <Sample/>
+      </React.Fragment>
+    );
   }
 }
 
